@@ -19,7 +19,6 @@ Initial analysis
 
 ![image](https://github.com/user-attachments/assets/09723fd3-958c-4174-9475-c1fbc26e80d4)
 ![Screenshot 2024-08-15 195152](https://github.com/user-attachments/assets/f17c0fc6-f7d8-49df-b285-98d8b3e3504e)
-![Screenshot 2024-08-15 181031](https://github.com/user-attachments/assets/5e457578-8948-4d9a-83bf-b2c97b1167dc)
 
 Make sure you have a good data set
 
