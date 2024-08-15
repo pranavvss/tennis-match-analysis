@@ -1,25 +1,33 @@
+Tennis Analysis
 
-# Tennis Analysis
+> [!INFO]
+>Introduction
+>This project analyzes Tennis players in a video to measure their speed, ball shot speed and number of shots. This project will detect players and the tennis ball using YOLO and also utilizes CNNs to extract court keypoints. This hands on project is perfect for polishing your machine learning, and computer vision skills. 
 
-## Introduction
-This project analyzes Tennis players in a video to measure their speed, ball shot speed and number of shots. This project will detect players and the tennis ball using YOLO and also utilizes CNNs to extract court keypoints. This hands on project is perfect for polishing your machine learning, and computer vision skills. 
 
-## Output Videos
-Here is a screenshot from one of the output videos:
+Final oputput (Solved Yolov5 and Yolov8 not working together for both ball detection and Person detection)
+![image](https://github.com/user-attachments/assets/0cacad9c-b27e-4c38-9cdb-f5ca5c37a478)
 
-![Screenshot](output_videos/screenshot.jpeg)
 
-## Models Used
-* YOLO v8 for player detection
-* Fine Tuned YOLO for tennis ball detection
-* Court Key point extraction
+Outut(Solved ball not properly detected)
+https://github.com/user-attachments/assets/4204fce4-b8cc-47fb-ac7a-1ea3452018fa
 
-* Trained YOLOV5 model: https://drive.google.com/file/d/1UZwiG1jkWgce9lNhxJ2L0NVjX1vGM05U/view?usp=sharing
-* Trained tennis court key point model: https://drive.google.com/file/d/1QrTOF1ToQ4plsSZbkBs3zOLkVt3MBlta/view?usp=sharing
 
-## Training
-* Tennis ball detetcor with YOLO: training/tennis_ball_detector_training.ipynb
-* Tennis court keypoint with Pytorch: training/tennis_court_keypoints_training.ipynb
+Output (Video Analysis)
+https://github.com/user-attachments/assets/376310e5-b490-4382-8697-9b39c1dc1023
+
+
+Initial analysis
+![image](https://github.com/user-attachments/assets/09723fd3-958c-4174-9475-c1fbc26e80d4)
+
+Make sure you have a good data set
+![image](https://github.com/user-attachments/assets/258f23bc-dc98-49ec-ad4e-2e45ede5cbe5)
+
+I have used 
+- Yolov8 for object detection [Visit here](https://github.com/ultralytics/yolov5?tab=readme-ov-file)
+- Yolov5 for ball tracking (Yolov5i6u.pt to be precise) [Visit here](https://github.com/ultralytics/ultralytics)
+- and i took tennis macth data for roboflow [Download the data](https://universe.roboflow.com/viren-dhanwani/tennis-ball-detection)
+
 
 ## Requirements
 * python3.8
