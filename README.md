@@ -28,3 +28,6 @@ I have used
 * pandas
 * numpy 
 * opencv
+
+> [!NOTE]
+> I'll add a step-by-step hwo to build this project using documentation once i have completed it. There is more to come for this porject, like proper analysis of a player's playing style.
